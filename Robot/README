@@ -1,0 +1,18 @@
+Computer Graphics Virus
+
+File organization:
+	Headerfiles are in the include directory
+	Running make creates the executable as virus 
+
+Glui Interface:
+	The are two rollout menus containing spinners to adjust the model:
+	1	Dimensions  - changes body part sizes
+	2	Angles  - moves the body parts in relation to each other
+
+User Input:
+	Keys:
+		o/p - changes the view to either orthogonal or perspective	
+		up/down - zooms in and out (note that this will throw you into perspective mode)
+	Mouse:
+		left click and drag - changes the eye location along horizontal plane
+		right click and drag - rotates view point
